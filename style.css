@@ -122,19 +122,19 @@ body {
 /* Responsive: Make text larger and more beautiful on mobile */
 @media (max-width: 600px) {
   .night-text {
-    font-size: 3.5vw;
-    padding: 0.5em 0.5em;
-    gap: 0.3em;
+    font-size: 2.2em; /* Large and fixed size for mobile */
+    padding: 0.7em 0.7em;
+    gap: 0.5em;
     letter-spacing: 0.22em;
     text-shadow: 0 2px 24px #2e1a4d, 0 0 32px #a48be0, 0 0 60px #ffe06688;
     border-radius: 1em;
-    /* Removed background and box-shadow for no darker bg */
     flex-direction: row;
+    top: 60px;
   }
 
   .night-text span {
     font-size: 1em;
-    padding: 0.04em 0.1em;
+    padding: 0.08em 0.15em;
   }
 }
 
